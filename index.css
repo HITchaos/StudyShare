@@ -1,0 +1,70 @@
+.border-bottom {
+    border-bottom: 2px solid #e6e6e6;
+}
+.tab-bar {
+    position: fixed;
+    width: 200px;
+    overflow-x: hidden;
+    right: 20px;
+    top: 150px;
+    list-style: none;
+}
+.tab-bar li {
+    font: 18px/28px '微软雅黑';
+}
+.tab-bar a {
+    text-decoration: none;
+    color: #9D9D9D;
+}
+.tab-bar a:hover {
+    color: #2828FF;
+}
+.title {
+    position: fixed;
+    background-color: #eeeeee;
+    text-indent: 3rem;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    border-radius: 5px;
+}
+.wrap {
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.item {
+    margin: 30px 0;
+}
+.item>p {
+    text-indent: 2rem;
+}
+
+video {
+    margin: 50px 200px;
+    height: 450px;
+}
+
+.image {
+    text-align: center;
+    margin: 50px auto;
+    height: 300px;
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in; /* Firefox 4 */
+    -webkit-transition: all 1s ease-in; /* Safari and Chrome */
+    -o-transition: all 1s ease-in; /* Opera */
+}
+
+b {
+    text-decoration: none;
+    color: #FF5151;
+}
+
+.border {
+    border: 2px solid #e6e6e6;
+}
+
+.img-wrap {
+    width: 100%;
+    overflow: hidden;
+}
